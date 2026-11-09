@@ -1,0 +1,13 @@
+{
+  "name": "mimi-and-the-bell-flower",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A 12 second felt-plush three.js short: Mimi the kitten, a baby owl and a bouncy bell flower.",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "render": "node render/render.mjs",
+    "preview": "node render/render.mjs --w 1280 --h 720 --fps 24 --out out/preview.mp4",
+    "stills": "node render/render.mjs --w 1280 --h 720 --stills 0,2.6,3.5,4.3,5.9,7.4,8.0,11.8"
+  }
+}
